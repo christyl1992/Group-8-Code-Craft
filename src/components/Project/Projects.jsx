@@ -1,6 +1,6 @@
 import React from "react"; // Importing React library to use JSX
-import { ProjectList } from "../utils/ProjectList"; // Importing ProjectList from a file
-import ProjectItem from "../Projects/ProjectItem"; // Importing ProjectItem component
+// import { ProjectList } from "./"; // Importing ProjectList from a file
+import ProjectItem from "./ProjectItem"; // Importing ProjectItem component
 import "./Projects.css"; // Importing CSS styles for the Projects component
 
 function Projects() { // Defining a functional component called Projects
