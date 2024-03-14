@@ -1,9 +1,9 @@
 import React from "react"; // Importing React library to use JSX
 // import { ProjectList } from "./"; // Importing ProjectList from a file
 import ProjectItem from "./ProjectItem"; // Importing ProjectItem component
-import "./Projects.css"; // Importing CSS styles for the Projects component
+import "./HTML.css"; // Importing CSS styles for the Projects component
 
-function Projects() { // Defining a functional component called Projects
+function HtmlApp() { // Defining a functional component called Projects
   return (
     <div className="project"> {/* Creating a div element with class name 'project' */}
       <h1 className="projectTitle">My projects</h1> {/* Creating an h1 element with class name 'projectTitle' */}
@@ -23,4 +23,4 @@ function Projects() { // Defining a functional component called Projects
   );
 }
 
-export default Projects; // Exporting the Projects component as default
+export default HtmlApp; // Exporting the Projects component as default

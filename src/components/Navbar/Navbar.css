@@ -44,7 +44,7 @@ font-weight: var(--font-weight);
 .container-fluid {
   display: flex;
   flex-direction: column;
-  gap: 300px;
+  gap: 0;
    
 }
 button {
