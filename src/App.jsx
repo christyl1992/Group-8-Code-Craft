@@ -18,7 +18,7 @@ function App() {
           <Route path="/about" element={<About />} />
           {/* Make sure to define the Project component */}
           <Route path="/projects" element={<Projects />} />
-        </Routes>
+          </Routes>
         <Footer />
       </Router>
     </div>

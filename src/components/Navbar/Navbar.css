@@ -41,7 +41,12 @@
 font-size: var(--font-right-side); /* Adjust font size */
 font-weight: var(--font-weight);
 }
-
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  gap: 300px;
+   
+}
 button {
   background-color: transparent;
   border: none;
