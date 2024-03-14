@@ -1,3 +1,4 @@
+/* Import CSS variables */
 @import "./vars.css";
 
 body {
@@ -14,3 +15,8 @@ body {
 }
 
 /* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+  .App {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+}
