@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className={`leftSide ${openLinks ? 'open' : 'close'}`}>
-        <h1>Coding Revision App</h1>
+        <h1>CodeCraft</h1>
         <div className="hiddenLinks"></div>
       </div>
       <div className="rightSide">

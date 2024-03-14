@@ -5,8 +5,8 @@ function HomePage() {
   return (
     <div className="home">
       <div className="headerContainer">
-        {/* <img src={mike} alt="Mike's photo." /> */}
-        <p className="home-description lead">Hi, I am Mike Thomas! I am a web developer.</p>
+        {/* <img src={group8} alt="group 8 photo." /> */}
+        <p className="home-description lead">CodeCraft: Elevating Your Coding Mastery Tenfold!</p>
         
               </div>
       
