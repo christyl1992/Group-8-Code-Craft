@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import About from '../About/About';
 import HTML from '../HTML-course/HTML';
+import '../About/About'
 import './Navbar.css';
+import CssCourse from '../CssCourse/CssCourse';
 
 function Navbar() {
   const [openLinks, setOpenLinks] = useState(false);

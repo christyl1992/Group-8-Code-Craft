@@ -6,7 +6,7 @@ import HomePage from './Home/Home';
 import Footer from './Footer/Footer';
 import Quiz from '../components/Quiz';
 import Description from './Description/Description';
-import Progress from './Progress/Progress';
+import Progress from '../components/Progress/Progress';
 import '../App.css';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
