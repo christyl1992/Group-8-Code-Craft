@@ -1,18 +1,14 @@
 import React from "react";
-// Import your profile image if needed
-// import profileImage from "./about-images/mike.jpeg";
-import "./CssCourse.css";
+//import profileImage from "./about-images/mike.jpeg";
+import "./About.css";
 
-function CSS() {
-  // If you intend to use the profileImage variable, make sure it's defined
-  // const profileImage = require("./about-images/mike.jpeg");
+function About() {
   return (
-    <div className="csscourse-container bg-primary">
-      <div className="css-content">
-        <h2>CSS</h2>
-        <div className="csscourse-text">
-          {/* Uncomment the following line if you're using the profileImage variable */}
-          {/* <img src={profileImage} alt="Profile" className="profile-image" /> */}
+    <div className="about-container bg-primary">
+      <div className="about-content">
+        <h2>About Us</h2>
+        <div className="about-text">
+          <img src={profileImage} alt="Profile" className="profile-image" />
           <p className="lead">
                We are hdhdjdkdkdkdkdkdkdk           
           </p>
@@ -33,4 +29,4 @@ function CSS() {
   );
 }
 
-export default CSS;
+export default About;

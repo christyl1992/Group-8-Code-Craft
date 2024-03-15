@@ -19,9 +19,9 @@ function Navbar() {
       </div>
       <div className="rightSide">
         <Link to="/">Home</Link>
-        <Link to="/html">HTML</Link>
-        <Link to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/html">Quiz</Link>
+        {/* <Link to="/about">About</Link> */}
+        {/* <Link to="/contact">Contact</Link> */}
 
         {/* Conditionally render MenuIcon or CloseIcon based on openLinks state */}
         {/* <button className="menuIconBtn" onClick={toggleNavbar}> */}
