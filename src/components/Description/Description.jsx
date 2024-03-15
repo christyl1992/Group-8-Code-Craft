@@ -1,5 +1,5 @@
 import React from 'react'
-import './Description.css'
+
 const Description = () => {
   return (
     <div>
@@ -9,3 +9,4 @@ const Description = () => {
 }
 
 export default Description
+
