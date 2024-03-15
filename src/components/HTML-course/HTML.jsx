@@ -1,6 +1,7 @@
 import React from 'react'
+import './HTML.css'
 
-const CodeSection = () => {
+const HTML = () => {
   return (
     <div>
       
@@ -8,4 +9,4 @@ const CodeSection = () => {
   )
 }
 
-export default CodeSection
+export default HTML

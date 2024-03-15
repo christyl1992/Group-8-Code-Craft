@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CodeSection = () => {
+const About = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const CodeSection = () => {
   )
 }
 
-export default CodeSection
+export default About
