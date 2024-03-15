@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import About from '../About/About';
-import HTML from '../HTML-course/HTML';
-import '../About/About'
 import './Navbar.css';
-import CssCourse from '../CssCourse/CssCourse';
+
 
 function Navbar() {
   const [openLinks, setOpenLinks] = useState(false);
@@ -23,13 +21,10 @@ function Navbar() {
       </div>
       <div className="rightSide">
         <Link to="/">Home</Link>
-          
+          <Link to="/">About Us</Link>
+            <Link to="/">Module Page</Link>
       </div>
-        <div className="container ">
-
-          <Link to="/quiz">Quiz</Link>
-          <Link to="/progress">Progress</Link>
-        </div>
+       
     </div>
      </div>
         
