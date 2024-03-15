@@ -1,7 +1,7 @@
-
+import CodeSection from './components/CodeSection/CodeSection'
 function App() {
 
-  return <h1>Hello Team!</h1>
+  return <CodeSection/>
 }
 
 export default App
