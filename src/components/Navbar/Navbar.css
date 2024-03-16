@@ -9,6 +9,13 @@
   margin: 0;
   box-sizing: border-box;
 }
+.container-fluid {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; /* Align items to the right */
+  align-items: center;
+  gap: 20px; /* Add gap between items */
+}
 
 .navbar {
   margin: 0; /* Remove default margin */
@@ -16,6 +23,7 @@
   height: 100px;
   background-color: #780000;
   display: flex;
+  gap: 20px;
   justify-content: space-between; /* Evenly distribute left and right sides */
   align-items: center; /* Center vertically */
   padding: 0 20px; /* Add padding for better spacing */
@@ -30,11 +38,9 @@
   justify-content: center;
   align-items: center;
   padding-left: 10px;
-  margin-left: 0; /* You forgot to specify the value */
 }
 
 .leftSide {
-  flex: 1; /* Takes up 50% of the available space */
   display: flex;
   align-items: center;
 }
@@ -47,27 +53,21 @@
 }
 
 .rightSide {
-  flex: 1; /* Takes up 50% of the available space */
   display: flex;
-  justify-content: flex-end; /* Align items to the right */
   align-items: center;
 }
 
 .rightSide a {
   color: white;
   text-decoration: none;
-  margin-left: 0px; /* Add left margin for spacing between links */
+  margin-left: var(--font-right-side); /* Add left margin for spacing between links */
   font-size: var(--font-right-side); /* Adjust font size */
   font-weight: var(--font-weight);
 }
 
 .container-fluid {
   display: flex;
-  position:relative;
-  right:-20px;
-  justify-content: space-between;
-  flex-direction: row;
-  gap: 10px;
+  align-items: center;
 }
 
 button {
@@ -79,10 +79,10 @@ button {
 }
 
 @media only screen and (max-width: 830px) {
-  .rightSide {
-    flex-direction: column; /* Change flex direction to stack elements vertically */
-    align-items: flex-end; /* Align items to the end of the container */
-    margin-right: 10%; /* Add margin to create space between elements and right edge */
+  .navbar {
+    flex-direction: column; /* Adjust flex direction to stack elements vertically */
+    align-items: flex-start; /* Align items to the start of the container */
+    padding: 20px; /* Add padding for better spacing */
   }
 
   .rightSide a {
@@ -94,13 +94,6 @@ button {
     margin-bottom: 11px; /* Add margin between links */
   }
 
-  .navbar {
-    flex-direction: column; /* Adjust flex direction to stack elements vertically */
-    align-items: flex-start; /* Align items to the start of the container */
-    padding: 20px; /* Add padding for better spacing */
-  }
-
-  /* Adjust padding for better spacing */
   .rightSide button {
     padding: 10px;
     margin-top: 10px;
