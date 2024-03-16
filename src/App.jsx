@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './components/Home/Home';
 
+
 function App() {
   return (
     <div className="App">

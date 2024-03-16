@@ -9,12 +9,14 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 .container-fluid {
   display: flex;
   flex-direction: row;
   justify-content: flex-end; /* Align items to the right */
   align-items: center;
   gap: 20px; /* Add gap between items */
+  
 }
 
 .navbar {
@@ -26,7 +28,7 @@
   gap: 20px;
   justify-content: space-between; /* Evenly distribute left and right sides */
   align-items: center; /* Center vertically */
-  padding: 0 20px; /* Add padding for better spacing */
+  padding: 0; /* Add padding for better spacing */
 }
 
 .logo {
@@ -109,3 +111,4 @@ button {
     margin-left: 0; /* Remove left margin for button on smaller screens */
   }
 }
+

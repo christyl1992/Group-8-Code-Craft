@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import Logo from './logo.png'
+import Logo from './logo.png';
+
 function Navbar() {
   const [openLinks, setOpenLinks] = useState(false);
 
@@ -12,11 +12,11 @@ function Navbar() {
 
   return (
     <div className="container-fluid text-white">
-      <div className="navbar">
+      <nav className="navbar">
         {/* Logo and toggle button */}
         <div className={`leftSide ${openLinks ? 'open' : 'close'}`}>
           <Link to="/">
-            <img src="./logo.png" alt="logo" className="logo" />
+            <img src={Logo} alt="logo" className="logo" />
           </Link>
           {/* <h1>CodeCraft</h1> */}
           <div className="hiddenLinks"></div>
@@ -25,11 +25,10 @@ function Navbar() {
         <div className="rightSide">
           <Link to="/">Home</Link>
           <Link to="/about">About Us</Link> 
-          <Link to="/about">Module Pages</Link> 
-          
+          <Link to="/module">Module Pages</Link> 
           {/* Add more navbar links as needed */}
         </div>
-      </div>
+      </nav>
     </div>
   );
 }
