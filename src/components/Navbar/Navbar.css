@@ -3,15 +3,34 @@
   --font-weight: 600;
   --font-right-side: 25px;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .navbar {
-  width: 100%;
+  margin: 0; /* Remove default margin */
+  width: 100vw; /* Set width to 100% of viewport width */
   height: 100px;
   background-color: #780000;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between; /* Added to evenly distribute left and right sides */
+  justify-content: space-between; /* Evenly distribute left and right sides */
   align-items: center; /* Center vertically */
-  padding: 0 20px; /* Added padding for better spacing */
+  padding: 0 20px; /* Add padding for better spacing */
+}
+
+.logo {
+  display: flex;
+  position: relative;
+  top: 1px;
+  max-width: 200px;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  margin-left: 0; /* You forgot to specify the value */
 }
 
 .leftSide {
@@ -37,16 +56,20 @@
 .rightSide a {
   color: white;
   text-decoration: none;
-  margin-left: 20px; /* Add left margin for spacing between links */
-font-size: var(--font-right-side); /* Adjust font size */
-font-weight: var(--font-weight);
+  margin-left: 0px; /* Add left margin for spacing between links */
+  font-size: var(--font-right-side); /* Adjust font size */
+  font-weight: var(--font-weight);
 }
+
 .container-fluid {
   display: flex;
-  flex-direction: column;
-  gap: 0;
-   
+  position:relative;
+  right:-20px;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 10px;
 }
+
 button {
   background-color: transparent;
   border: none;
@@ -56,19 +79,31 @@ button {
 }
 
 @media only screen and (max-width: 830px) {
-  .rightSide a {
-    display: none; /* Hide links on smaller screens */
-    position:absolute;
-    right: 0;
-    margin-right: 10%;
-    flex-direction: column;
-    align-items: center;
-    gap: 11px;
-    z-index: 3;
+  .rightSide {
+    flex-direction: column; /* Change flex direction to stack elements vertically */
+    align-items: flex-end; /* Align items to the end of the container */
+    margin-right: 10%; /* Add margin to create space between elements and right edge */
   }
+
+  .rightSide a {
+    display: block; /* Display links as block elements */
+    color: white;
+    text-decoration: none;
+    font-size: var(--font-right-side); /* Adjust font size */
+    font-weight: var(--font-weight);
+    margin-bottom: 11px; /* Add margin between links */
+  }
+
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: column; /* Adjust flex direction to stack elements vertically */
+    align-items: flex-start; /* Align items to the start of the container */
+    padding: 20px; /* Add padding for better spacing */
+  }
+
+  /* Adjust padding for better spacing */
+  .rightSide button {
+    padding: 10px;
+    margin-top: 10px;
   }
 }
 
