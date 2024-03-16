@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import About from '../About/About';
-import './Navbar.css';
-
+import './Navbar.css'; // Make sure this path is correct
 
 function Navbar() {
   const [openLinks, setOpenLinks] = useState(false);
@@ -12,22 +10,19 @@ function Navbar() {
   };
 
   return (
-  
-      <div className="container-fluid text-white">
-<div className="navbar">
-      <div className={`leftSide ${openLinks ? 'open' : 'close'}`}>
-        <h1>CodeCraft</h1>
-        <div className="hiddenLinks"></div>
+    <div className="container-fluid text-white">
+      <div className="navbar">
+        <div className={`leftSide ${openLinks ? 'open' : 'close'}`}>
+          <h1>CodeCraft</h1>
+          <div className="hiddenLinks"></div>
+        </div>
+        <div className="rightSide">
+          <Link to="/">Home</Link>
+          <Link to="/about">About Us</Link> 
+          <Link to="/modules">Module Page</Link> 
+        </div>
       </div>
-      <div className="rightSide">
-        <Link to="/">Home</Link>
-          <Link to="/">About Us</Link>
-            <Link to="/">Module Page</Link>
-      </div>
-       
     </div>
-     </div>
-        
   );
 }
 

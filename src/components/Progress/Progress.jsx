@@ -1,12 +1,13 @@
 import React from 'react';
-import './Progress.css'
-const Progress = () => {
-  // Add content or functionality here
+import Progress from './Progress'; // Importing the Progress component from Progress.jsx
+import './App.css';
+
+const App = () => {
   return (
-    <div>
-      {/* Content or functionality */}
+    <div className="App">
+      <Progress /> {/* Using the Progress component */}
     </div>
   );
 }
 
-export default Progress;
+export default App;
