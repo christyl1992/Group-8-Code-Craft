@@ -20,7 +20,7 @@ function App() {
           {/* Make sure to define the Home component */}
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<About />} /> 
-         <Route path="/about" element={<Progress />} /> 
+         
           </Routes>
         <Footer />
       </Router>
