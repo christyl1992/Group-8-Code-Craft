@@ -7,10 +7,11 @@
   /* background-color:var(--home-bg-color); */
   background-image: linear-gradient(#6c6cce80, rgba(13, 59, 102, 0.5), rgba(255, 255, 0, 0.5)),
                   url("../../media/examples/lizard.png");
+                  
 
   width: 100%;
   color: var(--text-color);
-  height: 70vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center; /* Change to center */
