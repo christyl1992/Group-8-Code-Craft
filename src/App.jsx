@@ -1,16 +1,16 @@
 import React from "react";
 import "./Tutorial.css";
-import YoutubeEmbed from "./Tutorial";
+import TutorialVideo from "./Tutorial";
 
 
-export default function App() {
-  return (
-    <div className="Javascript">
-      <h1>Tutorial Video Javascript</h1>
-      <YoutubeEmbed embedId="W6NZfCO5SIk" />
-    </div>
-  );
-}
+// export default function App() {
+//   return (
+//     <div className="Javascript">
+//       <h1>Tutorial Video Javascript</h1>
+//       <TutorialVideo embedId="W6NZfCO5SIk" />
+//     </div>
+//   );
+// }
 
 function App() {
 
