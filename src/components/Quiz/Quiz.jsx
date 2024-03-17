@@ -1,3 +1,4 @@
+
 import React, { useContext } from 'react';
 import QuizStart from './QuizStart';
 import QuizGame from './QuizGame';
@@ -49,3 +50,4 @@ function Quiz() {
 }
 
 export default Quiz;
+
