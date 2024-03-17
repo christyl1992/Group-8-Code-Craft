@@ -23,6 +23,7 @@ function Navbar() {
           <NavLink exact to="/" activeClassName="active">Home</NavLink>
           <NavLink to="/about" activeClassName="active">About Us</NavLink>
           <NavLink to="/html" activeClassName="active">HTML</NavLink>
+           <NavLink to="/csscourse" activeClassName="active">Quiz</NavLink>
           <NavLink to="/csscourse" activeClassName="active">CSS</NavLink>
           <NavLink to="/javascript" activeClassName="active">JavaScript</NavLink>
           <NavLink to="/codesection" activeClassName="active">Code Snippet</NavLink>
