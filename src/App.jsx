@@ -1,3 +1,4 @@
+
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar/Navbar';
@@ -5,6 +6,7 @@ import About from './components/About/About';
 import Footer from './components/Footer/Footer';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './components/Home/Home';
+import CodeSection from './components/CodeSection/CodeSection'
 
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<About />} /> 
+           <Route path="/code" element={<CodeSection/>} />
         </Routes>
         <Footer />
       </Router>
@@ -23,3 +26,4 @@ function App() {
 }
 
 export default App;
+
