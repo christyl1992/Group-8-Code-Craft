@@ -25,7 +25,12 @@ function Navbar() {
         <div className="rightSide">
           <Link to="/">Home</Link>
           <Link to="/about">About Us</Link> 
-          <Link to="/module">Module Pages</Link> 
+          {/* <Link to="/module">Module Pages</Link>  */}
+          <Link to="/html">HTML</Link> 
+          <Link to="/csscourse">CSS</Link> 
+          <Link to="/javascript">JavaScript</Link>
+          <Link to="/codesection">Code Snipet</Link>
+          <Link to="/cheatsheets">Cheat Sheets</Link>
           {/* Add more navbar links as needed */}
         </div>
       </nav>

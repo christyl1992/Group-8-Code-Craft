@@ -16,7 +16,6 @@
   justify-content: flex-end; /* Align items to the right */
   align-items: center;
   gap: 20px; /* Add gap between items */
-  
 }
 
 .navbar {
@@ -57,12 +56,14 @@
 .rightSide {
   display: flex;
   align-items: center;
+  flex-grow: 1; /* Add this to make the right side take up remaining space */
+  justify-content: center; /* Center the items horizontally */
 }
 
 .rightSide a {
   color: white;
   text-decoration: none;
-  margin-left: var(--font-right-side); /* Add left margin for spacing between links */
+  margin: 0 15px; /* Adjust margin as needed */
   font-size: var(--font-right-side); /* Adjust font size */
   font-weight: var(--font-weight);
 }
@@ -87,10 +88,14 @@ button {
     padding: 20px; /* Add padding for better spacing */
   }
 
+  .rightSide {
+    flex-grow: 0; /* Reset flex-grow */
+    justify-content: flex-start; /* Align items to the start on smaller screens */
+  }
+
   .rightSide a {
     display: block; /* Display links as block elements */
-    color: white;
-    text-decoration: none;
+    margin: 0; /* Reset margin */
     font-size: var(--font-right-side); /* Adjust font size */
     font-weight: var(--font-weight);
     margin-bottom: 11px; /* Add margin between links */
@@ -111,4 +116,3 @@ button {
     margin-left: 0; /* Remove left margin for button on smaller screens */
   }
 }
-
