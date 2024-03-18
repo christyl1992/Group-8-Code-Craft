@@ -15,8 +15,8 @@ const TutorialVideo = ({ embedId }) => (
     </div>
 );
 
-YoutubeEmbed.propTypes = {
+TutorialVideo.propTypes = {
     embedId: PropTypes.string.isRequired
 };
 
-export default YoutubeEmbed;
+export default TutorialVideo;

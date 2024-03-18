@@ -1,20 +1,6 @@
-// import React from "react";
-// import "./Tutorial.css";
-// import TutorialVideo from "./Tutorial";
-
-
-// function App() {
-
-//   return <h1>Hello Team!</h1>;
-//   <TutorialVideo/>
-
-// }
-
-// export default App
-
 import React from "react";
-import "./styles.css";
-import TutorialVideo from "./Tutorial.jsx";
+// import "./styles.css";
+import TutorialVideo from "./components/Tutorial/Tutorial";
 
 export default function App() {
   return (
