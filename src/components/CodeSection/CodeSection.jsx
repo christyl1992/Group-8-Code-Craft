@@ -1,4 +1,5 @@
 import React, { useState, useCallback, useEffect } from "react";
+import './CodeSection.css'
 import CodeMirror from '@uiw/react-codemirror';
 import { javascript } from '@codemirror/lang-javascript';
 

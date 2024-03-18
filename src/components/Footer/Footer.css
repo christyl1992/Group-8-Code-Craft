@@ -1,0 +1,30 @@
+/* Footer.css */
+
+.footer {
+  background-color: #FF680A;
+  padding: 20px;
+  text-align: center;
+  color: aqua;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 10px;
+}
+
+.socialMedia {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+color:white;
+}
+
+.footer p {
+  margin: 0;
+  color: white;
+}
+a { 
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}

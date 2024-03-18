@@ -1,6 +1,7 @@
 import React from 'react'
+import './HTML.css'
 
-const Description = () => {
+const HTML = () => {
   return (
     <div>
       
@@ -8,5 +9,4 @@ const Description = () => {
   )
 }
 
-export default Description
-
+export default HTML
