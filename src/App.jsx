@@ -1,12 +1,24 @@
-import React from "react";
-// import "./styles.css";
+import React from 'react';
 import TutorialVideo from "./components/Tutorial/Tutorial";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function App() {
+function App() {
   return (
-    <div className="App">
-      <h1>Youtube Embed</h1>
-      <TutorialVideo embedId="W6NZfCO5SIk" />
+    <div className="container">
+      <h1>Youtube Tutorials</h1>
+      <div className="row">
+        <div className="col-md-4">
+          <TutorialVideo embedId="W6NZfCO5SIk" />
+        </div>
+        <div className="col-md-4">
+          <TutorialVideo embedId="ieTHC78giGQ" />
+        </div>
+        <div className="col-md-4">
+          <TutorialVideo embedId="qz0aGYrrlhU" />
+        </div>
+      </div>
     </div>
   );
 }
+
+export default App;
