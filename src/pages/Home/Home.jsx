@@ -2,6 +2,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './Home.css'; // Importing the CSS module
+
 import img from "./code-craft-home.jpg"
 
 function HomePage() {
