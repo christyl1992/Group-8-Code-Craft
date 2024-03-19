@@ -1,5 +1,5 @@
 // import React from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'; // Import necessary components from react-router-dom
+import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom'; // Import necessary components from react-router-dom
 // import Description from '/Users/christy/Desktop/revision-app/src/components/Description/Description.jsx';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar/Navbar';
@@ -18,7 +18,7 @@ function App() {
     <div className="App">
     <Router>
       <Navbar />
-
+      {/* <ProgressBar /> */}
       <Routes>
         <Route path="/" element={<HomePage />}/>
         <Route path="/revisionapp" element={<HomePage />}/>
