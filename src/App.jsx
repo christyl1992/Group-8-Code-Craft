@@ -22,7 +22,7 @@
 //   );
 // }
 
-export default App;
+//export default App;
 
 // import React from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'; // Import necessary components from react-router-dom
