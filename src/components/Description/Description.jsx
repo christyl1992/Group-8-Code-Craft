@@ -1,7 +1,6 @@
-
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './Description.css';
+import './description.css';
 
 const Description = ({ searchTerm }) => {
   const [description, setDescription] = useState('');

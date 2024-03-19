@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'; // Import necessary components from react-router-dom
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Navbar/Navbar';
 import HomePage from './Home/Home';
@@ -10,21 +11,22 @@ import CheatSheets from './CheatSheets/CheatSheets';
 import JavaScript from './JavaScript/JavaScript';
 import CodeSection from './CodeSection/CodeSection';
 import Quiz from './Quiz/Quiz';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Description from './Description.jsx';
 
 function App() {
   return (
+  <Router>
     <div>
       <h1>Hello Team!</h1>
-      <Router>
+  
         <Routes> 
+          <Route path="/" element={<HomePage />} />
           <Route path="/html" element={<Description searchTerm="HTML" />} />
           <Route path="/css" element={<Description searchTerm="CSS" />} />
           <Route path="/javascript" element={<Description searchTerm="JavaScript" />} />
         </Routes>
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 }
 
