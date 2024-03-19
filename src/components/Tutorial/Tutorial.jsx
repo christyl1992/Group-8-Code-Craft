@@ -1,3 +1,4 @@
+
 import React from "react";
 import PropTypes from "prop-types";
 
@@ -20,3 +21,16 @@ TutorialVideo.propTypes = {
 };
 
 export default TutorialVideo;
+
+import React from 'react'
+import './Tutorial.css'
+const Tutorial = () => {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default Tutorial
+
