@@ -1,3 +1,29 @@
+
+// import React from 'react';
+// import TutorialVideo from "./components/Tutorial/Tutorial";
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
+// function App() {
+//   return (
+//     <div className="container">
+//       <h1>Youtube Tutorials</h1>
+//       <div className="row">
+//         <div className="col-md-4">
+//           <TutorialVideo embedId="W6NZfCO5SIk" />
+//         </div>
+//         <div className="col-md-4">
+//           <TutorialVideo embedId="ieTHC78giGQ" />
+//         </div>
+//         <div className="col-md-4">
+//           <TutorialVideo embedId="qz0aGYrrlhU" />
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
+
+export default App;
+
 // import React from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'; // Import necessary components from react-router-dom
 // import Description from '/Users/christy/Desktop/revision-app/src/components/Description/Description.jsx';
@@ -34,5 +60,7 @@ function App() {
     </div>
   )
 }
+
+
 
 export default App;
