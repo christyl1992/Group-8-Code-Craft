@@ -11,22 +11,18 @@ import JavaScript from './JavaScript/JavaScript';
 import CodeSection from './CodeSection/CodeSection';
 import Quiz from './Quiz/Quiz';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Description from './Description.jsx';
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <h1>Hello Team!</h1>
       <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          {/* <Route path="/modules" element={<ModulePage />} /> */}
-          <Route path="/html" element={<HTML />} />
-          <Route path="/css" element={<cssCourse />} />
-          <Route path="/codesection" element={<codeSection />} />
-           <Route path="/cheatsheets" element={<CheatSheets />} />
-          {/* Add other routes as necessary */}
+        <Routes> 
+          <Route path="/html" element={<Description searchTerm="HTML" />} />
+          <Route path="/css" element={<Description searchTerm="CSS" />} />
+          <Route path="/javascript" element={<Description searchTerm="JavaScript" />} />
         </Routes>
-        <Footer />
       </Router>
     </div>
   );
