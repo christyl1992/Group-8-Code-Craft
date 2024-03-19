@@ -29,7 +29,6 @@ function Navbar() {
           <Link to="/html">HTML</Link> 
           <Link to="/css">CSS</Link> 
           <Link to="/javascript">JavaScript</Link>
-          <Link to="/code">Code Snipet</Link>
           {/* <Link to="/cheatsheets">Cheat Sheets</Link> */}
           {/* Add more navbar links as needed */}
         </div>
