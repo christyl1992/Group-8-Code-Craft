@@ -10,10 +10,10 @@ function HomePage() {
     <div className="homePage">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-md-5">
+          <div className="col-md-5 col-sm-12">
             <img src={img} alt="..." style={{ width: '100%', height: 'auto' }} />
           </div>
-          <div className="col-md-7">
+          <div className="col-md-7 col-sm-12">
             <div className="card-body">
               <h2 className="card-title text-center">Welcome to Code Academy!</h2>
               <p >Here is your current progress.</p>

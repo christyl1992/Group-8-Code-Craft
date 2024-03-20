@@ -32,12 +32,13 @@ const ProgressBar = () => {
   }, []);
 
   return (
-    <div className="probar" style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+    <div className="probar">
       {Object.keys(scores).map((language, index) => (
         <div key={language} style={{ marginBottom: '20px'}}>
           <h3>{language.toUpperCase()}</h3>
-          <div style={{ width: 200 }}>
+          <div>
             <CircularProgressbar
+              className={'probarItem'}
               value={(scores[language].score / scores[language].totalQuestions) * 100}
               text={`${scores[language].score}/${scores[language].totalQuestions}`}
               styles={buildStyles({

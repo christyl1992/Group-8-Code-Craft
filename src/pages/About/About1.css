@@ -12,6 +12,7 @@
     overflow-y: auto; /* Add overflow-y to enable vertical scrolling */
     justify-content: center;
     text-align: center;
+    color: var(--main-color);
 }
 
 .about .wrapper {
@@ -31,6 +32,7 @@
 }
 
 .team {
+    color: var(--main-color);
     font-size: 60px;
     display: flex;
     flex-wrap: wrap; /* Allow items to wrap to the next line */
@@ -39,13 +41,18 @@
 }
 
 .person {
+    color: var(--main-color);
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 10px;
 }
 
-.person a {
+.person p{
+    color: var(--main-color);
+}
+
+.person a{
     display: flex;
     flex-direction: column;
     align-items: center;

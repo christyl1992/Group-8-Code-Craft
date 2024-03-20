@@ -1,4 +1,11 @@
-/* .probar {
+.probar {
+    display: flex;
+    justify-content: space-evenly;
     width: 100%;
     background-color: white;
-} */
+    margin: 10px;
+}
+
+.probarItem{
+    width: 180px;
+}

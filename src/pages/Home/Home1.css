@@ -23,4 +23,39 @@
 
 .homePage p{
     margin: 0px;
+    color: var(--main-color);
+}
+.probar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: white;
+    width: 200px;
+}
+
+@media(max-width:576px) {
+    .homePage{
+        padding: 5px;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+    }
+    .homePage h2{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .probar {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding: 10px;
+        margin-bottom: 20px;
+        justify-content: space-around;
+        text-align: center;
+
+    }
 }

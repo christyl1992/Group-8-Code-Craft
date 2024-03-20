@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import Logo from './logo2.png';
@@ -24,10 +24,10 @@ function Navbar() {
         {/* Navbar links */}
         <div className="rightSide">
           <Link to="/">Home</Link>
-          <Link to="/about">About Us</Link> 
+          <Link to="/about">About Us</Link>
           {/* <Link to="/module">Module Pages</Link>  */}
-          <Link to="/html">HTML</Link> 
-          <Link to="/css">CSS</Link> 
+          <Link to="/html">HTML</Link>
+          <Link to="/css">CSS</Link>
           <Link to="/javascript">JavaScript</Link>
           <Link to="/quiz">QUIZ</Link>
           {/* <Link to="/cheatsheets">Cheat Sheets</Link> */}
