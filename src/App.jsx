@@ -25,7 +25,7 @@
 //export default App;
 
 // import React from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'; // Import necessary components from react-router-dom
+import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom'; // Import necessary components from react-route
 // import Description from '/Users/christy/Desktop/revision-app/src/components/Description/Description.jsx';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar/Navbar';
@@ -48,6 +48,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />}/>
+        <Route path="/revisionapp" element={<HomePage />}/>
         <Route path="/about" element={<About />}/>
         <Route path="/html" element={<HTML />}/>
         <Route path="/css" element={<CssCourse />}/>
