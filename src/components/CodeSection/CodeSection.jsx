@@ -22,11 +22,11 @@ function CodeSnippetOutput({ code }) {
       originalLog(...args);
     };
 
-    try {
-      eval(code);
-    } catch (error) {
-      setOutput(error.toString());
-    }
+    // try {
+    //   eval(code);
+    // } catch (error) {
+    //   setOutput(error.toString());
+    // }
 
     console.log = originalLog;
   }, [code]);
