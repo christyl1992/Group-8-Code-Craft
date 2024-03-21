@@ -41,3 +41,29 @@ p {
     color: white;
     text-align: center;
   }
+  @media(max-width:576px) {
+    .footer {
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .socialMedia {
+      margin-bottom: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color:white;
+    }
+    a {
+      padding: 0px;
+    }
+    
+    p {
+        margin: 0px;
+        justify-content: center;
+      }
+  }
