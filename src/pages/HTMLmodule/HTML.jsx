@@ -1,9 +1,13 @@
 import React from 'react';
 import Description from '../../components/Description/Description';
 import CodeSection from '../../components/CodeSection/CodeSection';
+import Tutorial from '../../components/Tutorial/Tutorial';
+import CheatSheets from '../../components/CheatSheets/CheatSheets';
 import '../ModulePage.css'
 
 const HTML = () => {
+  const embedId = "YOUR_EMBED_ID_HERE";
+
   return (
     <div className="container-module">
       <div className="row">
@@ -20,10 +24,10 @@ const HTML = () => {
         <div className="col">
           <div className="row">
             <div className="col-md tutorial-section">
-              <h1>Tutorial</h1>
+              <Tutorial embedId={embedId}/>
             </div>
             <div className="col-md cheatsheet-section">
-              <h1>Cheat Sheets</h1>
+              <CheatSheets />
             </div>
           </div>
         </div>
