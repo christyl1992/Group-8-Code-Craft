@@ -6,6 +6,7 @@ import Tutorial from '../../components/Tutorial/Tutorial';
 import '../ModulePage.css';
 
 const CssCourse = () => {
+  const embedId = "wRNinF7YQqQ?si=1yAsi18YpFF1tEvQ";
   return (
     <div className="container-module">
       <div className="row">
@@ -22,7 +23,7 @@ const CssCourse = () => {
         <div className="col">
           <div className="row">
             <div className="col-md tutorial-section">
-              <Tutorial />
+            <Tutorial embedId={embedId}/>
             </div>
             <div className="col-md cheatsheet-section">
               <CheatSheets />
@@ -36,3 +37,5 @@ const CssCourse = () => {
 
 
 export default CssCourse
+
+
