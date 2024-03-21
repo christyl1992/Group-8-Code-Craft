@@ -57,21 +57,13 @@ An image of the projects page is shown here:
 Responsive to smaller screen:
 
 ![image](https://github.com/Mikemupararano/revision-app/assets/146155569/38dda9f5-f027-45b0-b649-1cc25b07f122)
-
 ![image](https://github.com/Mikemupararano/revision-app/assets/146155569/4fa3d6f7-f450-492b-8736-4b83ae0b76ee)
-
 ![image](https://github.com/Mikemupararano/revision-app/assets/146155569/749eb916-8357-4cfa-af89-aff6780ee639)
-
 ![image](https://github.com/Mikemupararano/revision-app/assets/146155569/13b80198-f83b-431e-96f7-46eb6e247f36)
-
 ![image](https://github.com/Mikemupararano/revision-app/assets/146155569/57111257-69f0-4ef1-b258-82c14bcc2242)
-
 ![image](https://github.com/Mikemupararano/revision-app/assets/146155569/50c44b4e-b85d-41c3-b80a-663ffbc2f763)
-
 ![image](https://github.com/Mikemupararano/revision-app/assets/146155569/36fc416e-f69e-4c78-9c9d-19d3c9c49e00)
-
 ![image](https://github.com/Mikemupararano/revision-app/assets/146155569/0a0d74b3-a4c8-4c38-b394-c2c116364aa1)
-
 ![image](https://github.com/Mikemupararano/revision-app/assets/146155569/788971e0-f48a-4925-b5fd-148fb1fcb102)
 
 By clicking the link below, the user is taken to the web page where the project is deployed:https: XXXXX.
