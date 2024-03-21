@@ -3,7 +3,6 @@
   publish = "build"
 
 [[redirects]]
-  # Redirect all paths to index.html for client-side routing
   from = "/*"
   to = "/index.html"
   status = 200
