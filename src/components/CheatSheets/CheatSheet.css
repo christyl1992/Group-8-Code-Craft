@@ -1,0 +1,13 @@
+:root {
+    --main-color: #393536;
+    --secondary-color: #218575;
+    --accent-color: #ff680a;
+}
+
+.cs-container h1{
+ color: var(--secondary-color);
+}
+
+.cs-container h3{
+    color: var(--accent-color);
+}

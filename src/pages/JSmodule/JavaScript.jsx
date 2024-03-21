@@ -1,6 +1,8 @@
 import React from 'react';
 import Description from '../../components/Description/Description'
 import CodeSection from '../../components/CodeSection/CodeSection';
+import CheatSheets from '../../components/CheatSheets/CheatSheets';
+import Tutorial from '../../components/Tutorial/Tutorial';
 import '../ModulePage.css'
 
 const JavaScript = () => {
@@ -20,10 +22,10 @@ const JavaScript = () => {
         <div className="col">
           <div className="row">
             <div className="col-md tutorial-section">
-              <h1>Tutorial</h1>
+              <Tutorial />
             </div>
             <div className="col-md cheatsheet-section">
-              <h1>Cheat Sheets</h1>
+              <CheatSheets />
             </div>
           </div>
         </div>

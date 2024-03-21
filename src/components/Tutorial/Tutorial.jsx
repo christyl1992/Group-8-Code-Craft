@@ -1,9 +1,11 @@
 
 import React from "react";
 import PropTypes from "prop-types";
+import './Tutorial.css';
 
-const TutorialVideo = ({ embedId }) => (
+const Tutorial = ({ embedId }) => (
     <div className="video-responsive">
+        <h1>Watch Tutorial</h1>
         <iframe
             width="853"
             height="480"
@@ -16,21 +18,8 @@ const TutorialVideo = ({ embedId }) => (
     </div>
 );
 
-TutorialVideo.propTypes = {
+Tutorial.propTypes = {
     embedId: PropTypes.string.isRequired
 };
 
-export default TutorialVideo;
-
-import React from 'react'
-import './Tutorial.css'
-const Tutorial = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
-
-export default Tutorial
-
+export default Tutorial;
