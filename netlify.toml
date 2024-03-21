@@ -1,0 +1,15 @@
+[build]
+  command = "npm run build"  # Specify the build command for your project
+  publish = "build"          # Specify the directory containing the built files
+
+[headers]
+  # Optionally, configure custom HTTP headers
+  "/*"
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[redirects]
+  # Optionally, configure redirects for client-side routing
+  [[redirects]]
+    from = "/*"
+    to = "/index.html"
+    status = 200
