@@ -57,7 +57,8 @@ An image of the projects page is shown here:
 Responsive to smaller screen:
 
 ![image](https://github.com/Mikemupararano/revision-app/assets/146155569/38dda9f5-f027-45b0-b649-1cc25b07f122)
-![image](https://github.com/Mikemupararano/revision-app/assets/146155569/4fa3d6f7-f450-492b-8736-4b83ae0b76ee)
+![image](https://github.com/Mikemupararano/revision-app/assets/146155569/15a00e6f-3368-4c46-813a-db191f83babc)
+![image](https://github.com/Mikemupararano/revision-app/assets/146155569/f77ce294-578d-499d-8721-1dbccfd3ef3a)
 ![image](https://github.com/Mikemupararano/revision-app/assets/146155569/749eb916-8357-4cfa-af89-aff6780ee639)
 ![image](https://github.com/Mikemupararano/revision-app/assets/146155569/13b80198-f83b-431e-96f7-46eb6e247f36)
 ![image](https://github.com/Mikemupararano/revision-app/assets/146155569/57111257-69f0-4ef1-b258-82c14bcc2242)
